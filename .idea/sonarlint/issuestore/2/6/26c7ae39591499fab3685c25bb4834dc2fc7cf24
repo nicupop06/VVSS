@@ -2,9 +2,9 @@
 ¡
 java:S1192O"eDefine a constant instead of duplicating this literal "IO exception reading or writing file" 4 times.(ÌÔü¦J$c767df9e-5081-46ca-aa32-79036ab79339
 ‚
-java:S2259`"AA "NullPointerException" could be thrown; "fis" is nullable here.(ß¶­†ÿÿÿÿÿJ$b337a1e3-9b34-4df4-bd52-a77dbc0a7b90
-‚
 java:S2259R"AA "NullPointerException" could be thrown; "fos" is nullable here.(æŒÕ®ùÿÿÿÿJ$bbe5dbe3-b8a7-4b4d-a328-30bcaa3aae17
+‚
+java:S2259`"AA "NullPointerException" could be thrown; "fis" is nullable here.(ß¶­†ÿÿÿÿÿJ$b337a1e3-9b34-4df4-bd52-a77dbc0a7b90
 ”	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼ÌÔ;J$54218f68-3c94-4c0d-a55c-c59a0fd5c2cd
 •	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôâ»ÔJ$17600753-ccd5-4c81-926b-f40074877054
 š	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ý–ë“ûÿÿÿÿJ$5f9c9bed-81e2-4027-8247-bdd74a0c8a60
