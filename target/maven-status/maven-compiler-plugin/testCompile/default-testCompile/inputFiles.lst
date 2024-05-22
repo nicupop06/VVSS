@@ -1,2 +1,8 @@
-C:\Users\User\UBB\VVSS\01_Tasks\src\test\java\tasks\services\DateServiceTest.java
-C:\Users\User\UBB\VVSS\01_Tasks\src\test\java\tasks\model\TaskTest.java
+C:\Users\User\UBB\VVSS\tasks\src\test\java\tasks\model\TaskUnitTest.java
+C:\Users\User\UBB\VVSS\tasks\src\test\java\tasks\model\TaskTest.java
+C:\Users\User\UBB\VVSS\tasks\src\test\java\tasks\integration\TasksServiceAndArrayTaskListIntegrateTask.java
+C:\Users\User\UBB\VVSS\tasks\src\test\java\tasks\integration\TasksServiceIntegrateArrayTaskList.java
+C:\Users\User\UBB\VVSS\tasks\src\test\java\tasks\repo\ArrayTaskListTest.java
+C:\Users\User\UBB\VVSS\tasks\src\test\java\tasks\blackbox\DateServiceTest.java
+C:\Users\User\UBB\VVSS\tasks\src\test\java\tasks\repo\ArrayTaskListUnitTest.java
+C:\Users\User\UBB\VVSS\tasks\src\test\java\tasks\services\TaskServiceUnitTest.java

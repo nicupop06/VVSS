@@ -4,8 +4,8 @@ import javafx.collections.ObservableList;
 import org.apache.log4j.Logger;
 import tasks.model.LinkedTaskList;
 import tasks.model.Task;
-import tasks.model.TaskList;
-import tasks.view.*;
+import tasks.repository.TaskList;
+import tasks.view.Main;
 
 import java.io.*;
 import java.text.ParseException;
@@ -176,8 +176,7 @@ public class TaskIO {
         seconds = trimmed.contains("second") ? 1 : 0;
 
         int[] timeEntities = new int[]{days, hours, minutes, seconds};
-        int i = 0;
-        int j = timeEntities.length-1;// positions of timeEntities available
+        int i = 0, j = timeEntities.length-1;// positions of timeEntities available
         while (i != 1 && j != 1) {
             if (timeEntities[i] == 0) i++;
             if (timeEntities[j] == 0) j--;
@@ -210,8 +209,7 @@ public class TaskIO {
     private static Date getDateFromText (String line, boolean isStartTime) {
         Date date = null;
         String trimmedDate; //date trimmed from whole string
-        int start;
-        int end;
+        int start, end;
 
         if (isStartTime){
             start = line.indexOf("[");

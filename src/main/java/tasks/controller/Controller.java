@@ -38,7 +38,7 @@ public class Controller {
     @FXML
     public  TableView tasks;
     @FXML
-    private TableColumn<Task, String> columnDescription;
+    private TableColumn<Task, String> columnTitle;
     @FXML
     private TableColumn<Task, String> columnTime;
     @FXML
@@ -72,7 +72,7 @@ public class Controller {
     @FXML
     public void initialize(){
         log.info("Main controller initializing");
-        columnDescription.setCellValueFactory(new PropertyValueFactory<>("title"));
+        columnTitle.setCellValueFactory(new PropertyValueFactory<>("title"));
         columnTime.setCellValueFactory(new PropertyValueFactory<>("formattedDateStart"));
         columnRepeated.setCellValueFactory(new PropertyValueFactory<>("formattedRepeated"));
     }
@@ -93,18 +93,12 @@ public class Controller {
             NewEditController editCtrl = loader.getController();
             editCtrl.setService(service);
             editCtrl.setTasksList(tasksList);
-            if(mainTable.getSelectionModel().getSelectedItem() != null){
-                editCtrl.setCurrentTask((Task)mainTable.getSelectionModel().getSelectedItem());
-                editNewStage.setScene(new Scene(root, 600, 350));
-                editNewStage.setResizable(false);
-                editNewStage.initOwner(Main.primaryStage);
-                editNewStage.initModality(Modality.APPLICATION_MODAL);//??????
-                editNewStage.show();
-            }
-            else{
-                log.error("Please select an item");
-            }
-
+            editCtrl.setCurrentTask((Task)mainTable.getSelectionModel().getSelectedItem());
+            editNewStage.setScene(new Scene(root, 600, 350));
+            editNewStage.setResizable(false);
+            editNewStage.initOwner(Main.primaryStage);
+            editNewStage.initModality(Modality.APPLICATION_MODAL);//??????
+            editNewStage.show();
         }
         catch (IOException e){
             log.error("Error loading new-edit-task.fxml");

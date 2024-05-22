@@ -2,6 +2,7 @@ package tasks.model;
 
 
 import org.apache.log4j.Logger;
+import tasks.repository.TaskList;
 
 import java.util.Iterator;
 import java.util.LinkedList;

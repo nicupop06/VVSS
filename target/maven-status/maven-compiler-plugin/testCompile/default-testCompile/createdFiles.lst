@@ -1,2 +1,8 @@
-tasks\services\DateServiceTest.class
+tasks\integration\TasksServiceAndArrayTaskListIntegrateTask.class
+tasks\model\TaskUnitTest.class
+tasks\services\TaskServiceUnitTest.class
+tasks\repo\ArrayTaskListTest.class
 tasks\model\TaskTest.class
+tasks\integration\TasksServiceIntegrateArrayTaskList.class
+tasks\repo\ArrayTaskListUnitTest.class
+tasks\blackbox\DateServiceTest.class
